@@ -10,6 +10,9 @@
 		4810F8EE20AB7D51003A15CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4810F8ED20AB7D51003A15CD /* AppDelegate.swift */; };
 		4810F8F020AB7D54003A15CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4810F8EF20AB7D54003A15CD /* Assets.xcassets */; };
 		4810F8F320AB7D54003A15CD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4810F8F120AB7D54003A15CD /* MainMenu.xib */; };
+		4810F8FD20AB7E55003A15CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4810F8FB20AB7E55003A15CD /* ViewController.swift */; };
+		4810F8FE20AB7E55003A15CD /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4810F8FC20AB7E55003A15CD /* ViewController.xib */; };
+		4810F90120AB8FF4003A15CD /* GridItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4810F8FF20AB8785003A15CD /* GridItem.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		4810F8F220AB7D54003A15CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		4810F8F420AB7D54003A15CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4810F8F520AB7D54003A15CD /* MacMemoryGame.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacMemoryGame.entitlements; sourceTree = "<group>"; };
+		4810F8FB20AB7E55003A15CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4810F8FC20AB7E55003A15CD /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		4810F8FF20AB8785003A15CD /* GridItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GridItem.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,10 +58,13 @@
 			isa = PBXGroup;
 			children = (
 				4810F8ED20AB7D51003A15CD /* AppDelegate.swift */,
+				4810F8FB20AB7E55003A15CD /* ViewController.swift */,
+				4810F8FC20AB7E55003A15CD /* ViewController.xib */,
 				4810F8EF20AB7D54003A15CD /* Assets.xcassets */,
 				4810F8F120AB7D54003A15CD /* MainMenu.xib */,
 				4810F8F420AB7D54003A15CD /* Info.plist */,
 				4810F8F520AB7D54003A15CD /* MacMemoryGame.entitlements */,
+				4810F8FF20AB8785003A15CD /* GridItem.xib */,
 			);
 			path = MacMemoryGame;
 			sourceTree = "<group>";
@@ -119,6 +128,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4810F8F020AB7D54003A15CD /* Assets.xcassets in Resources */,
+				4810F8FE20AB7E55003A15CD /* ViewController.xib in Resources */,
+				4810F90120AB8FF4003A15CD /* GridItem.xib in Resources */,
 				4810F8F320AB7D54003A15CD /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -130,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4810F8FD20AB7E55003A15CD /* ViewController.swift in Sources */,
 				4810F8EE20AB7D51003A15CD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
